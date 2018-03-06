@@ -27,6 +27,30 @@
  <img src="./preview/我的音乐.jpeg" alt="登录" width="220" height="400"  />
    <img src="./preview/音乐播放.jpeg" alt="登录" width="220" height="400"  />
 
+
+## 运行项目
+
+  + 获取项目:
+
+        git clone git@github.com:Faye1208/my-music-app.git
+
+  + 打开项目所在目录:
+
+        cd my-music-app/
+
+  + 安装项目依赖：
+
+        npm install
+
+  + 启动后台服务器：
+
+        node server/server.js
+
+  + 启动前端服务器：
+
+        npm start
+
+
 ## 技术栈
 
  + 构建：使用create-react-app脚手架

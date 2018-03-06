@@ -1,0 +1,82 @@
+.login-page-wrapper {
+    padding-top: 70px;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.error-msg {
+    color: chocolate;
+    padding-left: 10px;
+}
+
+.am-tab-bar-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.fixed-header, .am-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.top-padding {
+    position: relative;
+    top: 47px;
+}
+
+.page-content {
+    padding: 45px 5px;
+}
+
+.content {
+    position: relative;
+}
+
+.dashboard-content-wrapper {
+    position: relative;
+    z-index: 90;
+    /*margin-top: 50px;*/
+}
+
+#chat-page .chat-me .am-list-extra {
+    flex-basis: auto;
+}
+
+#chat-page .chat-me .am-list-content {
+    padding-right: 15px;
+    text-align: right;
+}
+
+#chat-page .am-grid-icon {
+    display: none;
+}
+
+#chat-page .am-grid-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.stick-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+.rank-banner {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.rank-banner img {
+    width: 100%;
+}
